@@ -1,0 +1,23 @@
+@import url(./reset.css);
+/* theme */
+header > h1{
+background-color:#0984e3;
+ color: #fff;
+ font-weight: normal;
+ line-height: 6.5rem; /* 65px */
+ text-align: center;
+ font-size: 4.5rem;
+
+
+}
+section{
+ max-width: 90rem; /* 900px */
+ margin:5rem auto;
+ border: solid  .1rem color #333;
+
+}
+section img{
+
+width:  100%;
+
+}
