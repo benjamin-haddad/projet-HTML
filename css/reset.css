@@ -1,0 +1,27 @@
+/*reset css */
+html{
+    font-size: 62.5%;
+}
+    
+    /* prop generale pour mettre  */
+body{ 
+    font: 1.6rem sans-serif ;
+    letter-spacing: .1rem;
+    line-height:  1.6;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol{
+ margin: 0;
+ padding: 0;
+ list-style-type: none
+ 
+}
+a{
+ color: rgb(73, 226, 43);
+ text-decoration: none;
+}
+*{
+
+    box-sizing: border-box;
+    
+}
