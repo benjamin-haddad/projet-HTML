@@ -2,8 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sixtyfour&display=swap');
 @import url(./reset.css);
 /* theme */
+:root{ /* selector root = racine avec les variables */ 
+    --bgcolor: #1d3f58;
+    --color-border: #141212;
+    --colortext-title: #ffe600;
+    --border-radius: .4rem;
+    --bgsection: #744c10;
+    --substitle: medium;
+    --background-color: #130f40;
+}
 header > h1{
-background-color:#0984e3;
+background-color: var(--bgcolor);
  color: #fff;
  font-weight: normal;
  line-height: 6.5rem; /* 65px */
@@ -19,6 +28,8 @@ background-color:#0984e3;
 
 }
 section{
+  background-color: var(--color-border);
+  color: var(--colortext-title);
  max-width: 90rem; /* 900px */
  margin:5rem auto;
  border: solid  .1rem color #333;
@@ -27,5 +38,10 @@ section{
 section img{
 
 width:  100%;
+
+}
+section h2{
+text-transform: capitalize;
+font-weight: 400;
 
 }
