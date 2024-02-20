@@ -7,9 +7,11 @@
     --color-border: #141212;
     --colortext-title: #ffe600;
     --border-radius: .4rem;
-    --bgsection: #744c10;
+    --bgsection: #46a70d;
     --substitle: medium;
     --background-color: #130f40;
+    --btns-default-color: #0775c4;
+    
 }
 header > h1{
 background-color: var(--bgcolor);
@@ -45,3 +47,28 @@ text-transform: capitalize;
 font-weight: 400;
 
 }
+.btn-default{
+display: inline-block;
+width: max-content;
+background-color: var(--btns-default-color);
+line-height: 2.5rem;
+padding: .3rem .5rem;
+border-radius: var(--border-radius);
+color:var(--bgsection);
+}
+.btn-otpion-success{ /* couleur blue */
+  background-color: #2980b9;
+  color: var(--bgsection);
+}
+section .btn-otpion-warning{
+background-color: #c0392b;
+color: var(--bgsection)
+}
+/* creation d'un bouton par un élément a*/
+
+
+
+
+
+
+
